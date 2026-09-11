@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { Poppins, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
-import { Navbar } from "@/components/ui/Navbar";
-import { Footer } from "@/components/ui/Footer";
-import { ScrollRestoration } from "@/components/utils/ScrollRestoration";
+import { Navbar, Footer } from "@/components/layout";
+import { ScrollRestoration } from "@/components/common";
 
 const poppins = Poppins({
   variable: "--font-poppins",

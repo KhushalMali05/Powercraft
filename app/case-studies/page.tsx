@@ -1,6 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
-import { CaseStudiesSection, CASE_STUDIES } from "@/components/sections/CaseStudiesSection";
+import { CaseStudiesSection } from "@/components/sections/CaseStudiesSection";
 import { CtaOfferBand } from "@/components/sections/CtaOfferBand";
 import { CheckCircle2, TrendingUp, Sparkles, Building2, Calendar } from "lucide-react";
 
